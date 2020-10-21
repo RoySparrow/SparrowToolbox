@@ -14,6 +14,8 @@
 		4954B10C25403D5B00BD378F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4954B10B25403D5B00BD378F /* Assets.xcassets */; };
 		4954B10F25403D5B00BD378F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4954B10D25403D5B00BD378F /* LaunchScreen.storyboard */; };
 		4954B11A25403D5B00BD378F /* SparrowToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B11925403D5B00BD378F /* SparrowToolboxTests.swift */; };
+		62775F9D421A95226CE453A9 /* Pods_SparrowToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */; };
+		98A441BC50AF4670C637EE1F /* Pods_SparrowToolboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4028EFC5915CA27AC24800D2 /* Pods-SparrowToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolbox.debug.xcconfig"; path = "Target Support Files/Pods-SparrowToolbox/Pods-SparrowToolbox.debug.xcconfig"; sourceTree = "<group>"; };
 		4954B0FF25403D5700BD378F /* SparrowToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954B10225403D5700BD378F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4954B10425403D5700BD378F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		4954B11525403D5B00BD378F /* SparrowToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparrowToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954B11925403D5B00BD378F /* SparrowToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowToolboxTests.swift; sourceTree = "<group>"; };
 		4954B11B25403D5B00BD378F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowToolboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C382C34B0AB57E5C47F5FB3 /* Pods-SparrowToolboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolboxTests.release.xcconfig"; path = "Target Support Files/Pods-SparrowToolboxTests/Pods-SparrowToolboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		A63D002D4AAEDA03BB45173B /* Pods-SparrowToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolbox.release.xcconfig"; path = "Target Support Files/Pods-SparrowToolbox/Pods-SparrowToolbox.release.xcconfig"; sourceTree = "<group>"; };
+		FF710761B562ED8F448EA8A9 /* Pods-SparrowToolboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolboxTests.debug.xcconfig"; path = "Target Support Files/Pods-SparrowToolboxTests/Pods-SparrowToolboxTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62775F9D421A95226CE453A9 /* Pods_SparrowToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A441BC50AF4670C637EE1F /* Pods_SparrowToolboxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08EFAACC2BF468E1789D5151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */,
+				7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4954B0F625403D5700BD378F = {
 			isa = PBXGroup;
 			children = (
 				4954B10125403D5700BD378F /* SparrowToolbox */,
 				4954B11825403D5B00BD378F /* SparrowToolboxTests */,
 				4954B10025403D5700BD378F /* Products */,
+				F4CD7F908F1B1D034F813D23 /* Pods */,
+				08EFAACC2BF468E1789D5151 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,18 @@
 			path = SparrowToolboxTests;
 			sourceTree = "<group>";
 		};
+		F4CD7F908F1B1D034F813D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4028EFC5915CA27AC24800D2 /* Pods-SparrowToolbox.debug.xcconfig */,
+				A63D002D4AAEDA03BB45173B /* Pods-SparrowToolbox.release.xcconfig */,
+				FF710761B562ED8F448EA8A9 /* Pods-SparrowToolboxTests.debug.xcconfig */,
+				7C382C34B0AB57E5C47F5FB3 /* Pods-SparrowToolboxTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4954B11E25403D5B00BD378F /* Build configuration list for PBXNativeTarget "SparrowToolbox" */;
 			buildPhases = (
+				444158B41D4F1E2FD1BC92B6 /* [CP] Check Pods Manifest.lock */,
 				4954B0FB25403D5700BD378F /* Sources */,
 				4954B0FC25403D5700BD378F /* Frameworks */,
 				4954B0FD25403D5700BD378F /* Resources */,
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4954B12125403D5B00BD378F /* Build configuration list for PBXNativeTarget "SparrowToolboxTests" */;
 			buildPhases = (
+				51FDCB4893CF1EA7F76E0821 /* [CP] Check Pods Manifest.lock */,
 				4954B11125403D5B00BD378F /* Sources */,
 				4954B11225403D5B00BD378F /* Frameworks */,
 				4954B11325403D5B00BD378F /* Resources */,
@@ -194,6 +229,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		444158B41D4F1E2FD1BC92B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparrowToolbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FDCB4893CF1EA7F76E0821 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparrowToolboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4954B0FB25403D5700BD378F /* Sources */ = {
@@ -360,6 +442,7 @@
 		};
 		4954B11F25403D5B00BD378F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4028EFC5915CA27AC24800D2 /* Pods-SparrowToolbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +463,7 @@
 		};
 		4954B12025403D5B00BD378F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63D002D4AAEDA03BB45173B /* Pods-SparrowToolbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +484,7 @@
 		};
 		4954B12225403D5B00BD378F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF710761B562ED8F448EA8A9 /* Pods-SparrowToolboxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +507,7 @@
 		};
 		4954B12325403D5B00BD378F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C382C34B0AB57E5C47F5FB3 /* Pods-SparrowToolboxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
