@@ -17,6 +17,12 @@ extension ReusableView where Self: UIView {
     }
 }
 
+// use case:
+//
+// tableView.register(customTableViewCell.self, forCellReuseIdentifier: customTableViewCell.reuseIdentifier)
 extension UITableViewCell: ReusableView {}
 
+// use case:
+//
+// collectionView.register(customCollectionViewCell.self, forCellWithReuseIdentifier: customCollectionViewCell.reuseIdentifier)
 extension UICollectionViewCell: ReusableView {}
