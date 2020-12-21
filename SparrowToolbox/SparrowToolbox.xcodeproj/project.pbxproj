@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945B1212590AB4300E23328 /* UIViewExtensions.swift */; };
 		4945B1252590AD3F00E23328 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945B1242590AD3F00E23328 /* ReusableView.swift */; };
+		4945B1272590AF9300E23328 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945B1262590AF9300E23328 /* ArrayExtensions.swift */; };
 		4954B10325403D5700BD378F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10225403D5700BD378F /* AppDelegate.swift */; };
 		4954B10525403D5700BD378F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10425403D5700BD378F /* SceneDelegate.swift */; };
 		4954B10725403D5700BD378F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10625403D5700BD378F /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 		4028EFC5915CA27AC24800D2 /* Pods-SparrowToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolbox.debug.xcconfig"; path = "Target Support Files/Pods-SparrowToolbox/Pods-SparrowToolbox.debug.xcconfig"; sourceTree = "<group>"; };
 		4945B1212590AB4300E23328 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		4945B1242590AD3F00E23328 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		4945B1262590AF9300E23328 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		4954B0FF25403D5700BD378F /* SparrowToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954B10225403D5700BD378F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4954B10425403D5700BD378F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				4954B1262540403F00BD378F /* OSStatusExtensions.swift */,
 				4945B1212590AB4300E23328 /* UIViewExtensions.swift */,
+				4945B1262590AF9300E23328 /* ArrayExtensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				4954B10725403D5700BD378F /* ViewController.swift in Sources */,
 				4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */,
+				4945B1272590AF9300E23328 /* ArrayExtensions.swift in Sources */,
 				4954B1272540403F00BD378F /* OSStatusExtensions.swift in Sources */,
 				4945B1252590AD3F00E23328 /* ReusableView.swift in Sources */,
 				4954B10325403D5700BD378F /* AppDelegate.swift in Sources */,
