@@ -15,7 +15,7 @@
 		4954B10C25403D5B00BD378F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4954B10B25403D5B00BD378F /* Assets.xcassets */; };
 		4954B10F25403D5B00BD378F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4954B10D25403D5B00BD378F /* LaunchScreen.storyboard */; };
 		4954B11A25403D5B00BD378F /* SparrowToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B11925403D5B00BD378F /* SparrowToolboxTests.swift */; };
-		4954B1272540403F00BD378F /* OSStatusExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B1262540403F00BD378F /* OSStatusExtension.swift */; };
+		4954B1272540403F00BD378F /* OSStatusExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B1262540403F00BD378F /* OSStatusExtensions.swift */; };
 		4954B129254040CE00BD378F /* OSStatusExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B128254040CE00BD378F /* OSStatusExtensionTests.swift */; };
 		62775F9D421A95226CE453A9 /* Pods_SparrowToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */; };
 		98A441BC50AF4670C637EE1F /* Pods_SparrowToolboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */; };
@@ -46,7 +46,7 @@
 		4954B11525403D5B00BD378F /* SparrowToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparrowToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954B11925403D5B00BD378F /* SparrowToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowToolboxTests.swift; sourceTree = "<group>"; };
 		4954B11B25403D5B00BD378F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4954B1262540403F00BD378F /* OSStatusExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSStatusExtension.swift; sourceTree = "<group>"; };
+		4954B1262540403F00BD378F /* OSStatusExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSStatusExtensions.swift; sourceTree = "<group>"; };
 		4954B128254040CE00BD378F /* OSStatusExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSStatusExtensionTests.swift; sourceTree = "<group>"; };
 		7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowToolboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C382C34B0AB57E5C47F5FB3 /* Pods-SparrowToolboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolboxTests.release.xcconfig"; path = "Target Support Files/Pods-SparrowToolboxTests/Pods-SparrowToolboxTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		4954B1252540401100BD378F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4954B1262540403F00BD378F /* OSStatusExtension.swift */,
+				4954B1262540403F00BD378F /* OSStatusExtensions.swift */,
 				4945B1212590AB4300E23328 /* UIViewExtensions.swift */,
 			);
 			path = Extension;
@@ -300,7 +300,7 @@
 			files = (
 				4954B10725403D5700BD378F /* ViewController.swift in Sources */,
 				4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */,
-				4954B1272540403F00BD378F /* OSStatusExtension.swift in Sources */,
+				4954B1272540403F00BD378F /* OSStatusExtensions.swift in Sources */,
 				4954B10325403D5700BD378F /* AppDelegate.swift in Sources */,
 				4954B10525403D5700BD378F /* SceneDelegate.swift in Sources */,
 			);
