@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945B1212590AB4300E23328 /* UIViewExtensions.swift */; };
 		4954B10325403D5700BD378F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10225403D5700BD378F /* AppDelegate.swift */; };
 		4954B10525403D5700BD378F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10425403D5700BD378F /* SceneDelegate.swift */; };
 		4954B10725403D5700BD378F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B10625403D5700BD378F /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4028EFC5915CA27AC24800D2 /* Pods-SparrowToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolbox.debug.xcconfig"; path = "Target Support Files/Pods-SparrowToolbox/Pods-SparrowToolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		4945B1212590AB4300E23328 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		4954B0FF25403D5700BD378F /* SparrowToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954B10225403D5700BD378F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4954B10425403D5700BD378F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				4954B1262540403F00BD378F /* OSStatusExtension.swift */,
+				4945B1212590AB4300E23328 /* UIViewExtensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4954B10725403D5700BD378F /* ViewController.swift in Sources */,
+				4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */,
 				4954B1272540403F00BD378F /* OSStatusExtension.swift in Sources */,
 				4954B10325403D5700BD378F /* AppDelegate.swift in Sources */,
 				4954B10525403D5700BD378F /* SceneDelegate.swift in Sources */,
