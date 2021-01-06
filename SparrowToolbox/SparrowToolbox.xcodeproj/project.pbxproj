@@ -20,6 +20,7 @@
 		4954B1272540403F00BD378F /* OSStatusExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B1262540403F00BD378F /* OSStatusExtensions.swift */; };
 		4954B129254040CE00BD378F /* OSStatusExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954B128254040CE00BD378F /* OSStatusExtensionTests.swift */; };
 		496CF12D25A5C96E00E507E2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CF12C25A5C96E00E507E2 /* UIColorExtensions.swift */; };
+		496CF13025A5CACB00E507E2 /* HelpfulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CF12F25A5CACB00E507E2 /* HelpfulFunctions.swift */; };
 		62775F9D421A95226CE453A9 /* Pods_SparrowToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9D1AE32C2BBB00DEAE652D /* Pods_SparrowToolbox.framework */; };
 		98A441BC50AF4670C637EE1F /* Pods_SparrowToolboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		4954B1262540403F00BD378F /* OSStatusExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSStatusExtensions.swift; sourceTree = "<group>"; };
 		4954B128254040CE00BD378F /* OSStatusExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSStatusExtensionTests.swift; sourceTree = "<group>"; };
 		496CF12C25A5C96E00E507E2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		496CF12F25A5CACB00E507E2 /* HelpfulFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulFunctions.swift; sourceTree = "<group>"; };
 		7154C5EE6FAE92A611050288 /* Pods_SparrowToolboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowToolboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C382C34B0AB57E5C47F5FB3 /* Pods-SparrowToolboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolboxTests.release.xcconfig"; path = "Target Support Files/Pods-SparrowToolboxTests/Pods-SparrowToolboxTests.release.xcconfig"; sourceTree = "<group>"; };
 		A63D002D4AAEDA03BB45173B /* Pods-SparrowToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowToolbox.release.xcconfig"; path = "Target Support Files/Pods-SparrowToolbox/Pods-SparrowToolbox.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				4945B1232590AD2200E23328 /* Protocol */,
 				4954B1252540401100BD378F /* Extension */,
+				496CF12E25A5CAB500E507E2 /* Other */,
 				4954B10225403D5700BD378F /* AppDelegate.swift */,
 				4954B10425403D5700BD378F /* SceneDelegate.swift */,
 				4954B10625403D5700BD378F /* ViewController.swift */,
@@ -152,6 +155,14 @@
 				496CF12C25A5C96E00E507E2 /* UIColorExtensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		496CF12E25A5CAB500E507E2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				496CF12F25A5CACB00E507E2 /* HelpfulFunctions.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		F4CD7F908F1B1D034F813D23 /* Pods */ = {
@@ -315,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496CF13025A5CACB00E507E2 /* HelpfulFunctions.swift in Sources */,
 				4954B10725403D5700BD378F /* ViewController.swift in Sources */,
 				4945B1222590AB4300E23328 /* UIViewExtensions.swift in Sources */,
 				4945B1272590AF9300E23328 /* ArrayExtensions.swift in Sources */,
