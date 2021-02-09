@@ -1,7 +1,7 @@
 import XCTest
 
-import SparrowToolboxSPTests
+import SparrowToolboxTests
 
 var tests = [XCTestCaseEntry]()
-tests += SparrowToolboxSPTests.allTests()
+tests += SparrowToolboxTests.allTests()
 XCTMain(tests)
