@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ReusableView {}
+public protocol ReusableView {}
 
 extension ReusableView where Self: UIView {
     
