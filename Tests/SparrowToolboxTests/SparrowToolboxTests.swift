@@ -55,15 +55,10 @@ final class SparrowToolboxTests: XCTestCase {
         XCTAssert(errorCode == Int(osStatus), "The error code must be equal to OSStatus(\(osStatus)), but find \(errorCode) instead.")
         XCTAssert(detailMsg == correctDetailMsg, "OSStatus(\(osStatus)).detailMessage should be \"\(correctDetailMsg)\", but find \"\(detailMsg)\" instead.")
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SparrowToolbox().text, "Hello, World!")
-    }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testOSStatusNoErr", testOSStatusNoErr),
+        ("testOSStatusUndefinedErr", testOSStatusUndefinedErr),
+        ("testOSStatusDefinedErr", testOSStatusDefinedErr),
     ]
 }
