@@ -1,10 +1,17 @@
+//
+//  OSStatusExtensionsTests.swift
+//  
+//
+//  Created by Roy Sparrow on 2021/2/9.
+//
+
 import AVFoundation
 import XCTest
 @testable import SparrowToolbox
 
-final class SparrowToolboxTests: XCTestCase {
+final class OSStatusExtensionsTests: XCTestCase {
     
-    func testOSStatusNoErr() {
+    func testNoErr() {
         // arrange
         let osStatus = noErr
         let correctDetailMsg = "No Error"
@@ -20,7 +27,7 @@ final class SparrowToolboxTests: XCTestCase {
         XCTAssert(detailMsg == correctDetailMsg, "OSStatus(\(osStatus)).detailMessage should be \"\(correctDetailMsg)\", but find \"\(detailMsg)\" instead.")
     }
     
-    func testOSStatusUndefinedErr() {
+    func testUndefinedErr() {
         // arrange
         let osStatus: OSStatus = -9999
         let correctDetailMsg = "Undefined Error"
@@ -38,7 +45,7 @@ final class SparrowToolboxTests: XCTestCase {
         XCTAssert(detailMsg == correctDetailMsg, "OSStatus(\(osStatus)).detailMessage should be \"\(correctDetailMsg)\", but find \"\(detailMsg)\" instead.")
     }
     
-    func testOSStatusDefinedErr() {
+    func testDefinedErr() {
         // arrange
         let osStatus = kAudioUnitErr_MissingKey
         let correctDetailMsg = "AudioUnit: Missing Key"
@@ -57,8 +64,8 @@ final class SparrowToolboxTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testOSStatusNoErr", testOSStatusNoErr),
-        ("testOSStatusUndefinedErr", testOSStatusUndefinedErr),
-        ("testOSStatusDefinedErr", testOSStatusDefinedErr),
+        ("testNoErr", testNoErr),
+        ("testUndefinedErr", testUndefinedErr),
+        ("testDefinedErr", testDefinedErr),
     ]
 }
