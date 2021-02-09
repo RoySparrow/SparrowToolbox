@@ -8,7 +8,7 @@
 
 import Foundation
 
-func printLog<T>(message: T, file: String = #file, method: String = #function, line: Int = #line) {
+public func printLog<T>(message: T, file: String = #file, method: String = #function, line: Int = #line) {
     #if DEBUG
     let fileName = (file as NSString).lastPathComponent
     Swift.print("[\(fileName)(\(line)), \(method)] \(message)")
