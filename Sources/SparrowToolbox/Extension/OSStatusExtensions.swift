@@ -11,19 +11,19 @@ import Foundation
 
 extension OSStatus {
     
-    var error: NSError? {
+    public var error: NSError? {
         guard !isNoErr else { return nil }
         return NSError(domain: NSOSStatusErrorDomain, code: Int(self), userInfo: [
             NSLocalizedDescriptionKey: detailMessage])
     }
     
-    var isNoErr: Bool {
+    public var isNoErr: Bool {
         return self == noErr
     }
     
     // If get "Undefined Error", can search with https://www.osstatus.com/ or Apple Developer Documentation.
     // Another way, can use https://developer.apple.com/documentation/security/1394686-seccopyerrormessagestring to get message, but it doesn't work for all the OSStatus.
-    var detailMessage: String {
+    public var detailMessage: String {
         switch self {
             
         // No error

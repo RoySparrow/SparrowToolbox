@@ -13,7 +13,7 @@ extension Array {
     // use case:
     //
     // guard let element = elementArray[safe: 0] else { return }
-    subscript (safe index: Index) -> Element? {
+    public subscript (safe index: Index) -> Element? {
         return index >= 0 && index < count ? self[index] : nil
     }
 }
